@@ -1,0 +1,19 @@
+header{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    /* background-color: aquamarine; */
+}
+
+
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .main {
+      background-color: lightblue;
+}
